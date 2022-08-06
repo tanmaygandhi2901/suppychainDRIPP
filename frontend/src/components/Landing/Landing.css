@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+.landingHeader {
+  z-index: 3000;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+
+
+.videoContainer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: 101;
+}
+
+.landingGradientContainer {
+  position: fixed;
+  background: #FFFFFF;
+  background: linear-gradient(90.16deg, rgba(255, 255, 255, 0.9) 0.14%, rgba(255, 255, 255, 0.278348) 47.04%, rgba(255, 255, 255, 0) 99.47%);
+  min-height: 100%;
+  min-width: 100%;
+  z-index: 103;
+}
+
+.landingTextContainer {
+  /* background: rgba(255, 255, 255, 0.7); */
+  position: absolute;
+  bottom: 25%;
+  z-index: 104;
+  display: inline-block;
+  padding: 5rem;
+  /* border: 2px solid white;
+  border-radius: 12px 12px 0 0; */
+}
+
+.landingText {
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+
+.landingProductsBtn {
+  display: inline-block;
+  background-color: darkgreen;
+  background: linear-gradient(33.16deg, rgb(21, 121, 53) 0.14%, rgb(29, 178, 121) 99.47%);
+  padding: 12px 16px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.logoText {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: italic;
+}

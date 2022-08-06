@@ -1,0 +1,18 @@
+.addProduct {
+    position: absolute;
+    z-index: 105;
+    margin-top: 4rem;
+    padding: 1.5rem;
+    margin-right: 1rem;
+    right: 0;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+}
+
+.addProductText {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    color: darkgreen;
+}
